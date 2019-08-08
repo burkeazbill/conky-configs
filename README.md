@@ -3,7 +3,7 @@
 My Conky Config Files!
 For Windows hosts/servers, I have used DesktopInfo and BGInfo for many years now. For Linux, Conky is a great equivalent. There are a considerable number of advanced things you can do with Conky so everyone has their own idea of what they want shown. You can see other examples on the Conky [User Configs page.](https://github.com/brndnmtthws/conky/wiki/Configs)
 
-I prefer to keep it simple and show just what is really needed. In my case, my main inspiration comes from the VMware Hands On Labs DesktopInfo config. Here's what I ended up with:
+I prefer to keep it simple and show just what is really needed. In my case, my main inspiration comes from the VMware Hands On Labs DesktopInfo config. Here's what I ended up with for my Ubuntu VM (You may need to slightly adjust commands depending on your target OS):
 
 ![conky VMware Screenshot](/images/conky-VMware.png)
 
