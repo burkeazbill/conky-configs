@@ -21,7 +21,19 @@ I prefer to keep it simple and show just what is really needed. In my case, my m
 -- Status is GREEN if the contents of the status.txt is EXACTLY: Ready
 -- Status is RED if the contents of the status.txt is ANYTHING other than: Ready
 
-## Additional Resources:
+## Installation
+
+Place the VMware.config file from this repo in your Conky folder (IE: ~/.conky) then use Conky Manager 2 to enable Conky on Boot and select "VMware"
+Additionally, place the following two files in your home directory ~/
+
+- podname.txt
+- status.txt
+
+**podname.txt** should contain a descriptive title. See the screenshot above. The content of podname.txt for that screenshot was: VMware Livefire
+
+**status.txt** Place the word "Ready" in that (without the quotes) If you want to Status to show GREEN Ready as seen in the screenshot. Otherwise, put ANY OTHER text in there. Use-Case - provide a startup-script that updates the ~/status.txt as it progresses until the final step where it has completed and set the status to "Ready".
+
+## Additional Resources
 
 - [Conky Manager 2 (Updated to support new lua config files)](https://github.com/zcot/conky-manager2)
 - [Conky](https://github.com/brndnmtthws/conky)
